@@ -45,7 +45,7 @@ class SimpleFooter extends React.Component {
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
                   href="https://twitter.com/creativetim"
@@ -86,11 +86,25 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
+                </UncontrolledTooltip> */}
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="facebook"
+                  href="https://www.linkedin.com/in/ahmad-abu-sailik/"
+                  id="tooltip829810202"
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-linkedin" />
+                  </span>
+                </Button>
+                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                  Follow us
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/AhmadSailik"
                   id="tooltip495507257"
                   target="_blank"
                 >
